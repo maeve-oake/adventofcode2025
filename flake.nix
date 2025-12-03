@@ -15,7 +15,12 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        devShells.default = pkgs.mkShell { packages = [ pkgs.bashInteractive ]; };
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            dotnet-sdk_9
+            dotnet-runtime_9
+          ];
+        };
       }
     );
 }
