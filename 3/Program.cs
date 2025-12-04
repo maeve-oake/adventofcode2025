@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic;
-
-namespace _3;
+﻿namespace _3;
 
 class Program
 {
