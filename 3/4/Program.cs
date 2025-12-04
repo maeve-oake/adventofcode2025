@@ -12,8 +12,8 @@ class Program
         {
             List<(int y, int x)> found = FindRolls(warehouse);
             p2 += found.Count;
-            List<string> newwarehouse = RemoveRolls(found, warehouse);
             if (found.Count == 0) { break; }
+            List<string> newwarehouse = RemoveRolls(found, warehouse);
             warehouse = newwarehouse;
         }
 
