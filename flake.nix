@@ -1,6 +1,6 @@
 {
   description = "advent of code !!!";
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-25.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
   inputs.systems.url = "github:nix-systems/default";
   inputs.flake-utils = {
     url = "github:numtide/flake-utils";
